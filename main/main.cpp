@@ -7,6 +7,7 @@ double bodmas(double a,double b, double c,double d, double e, double f) {
 		return a * b / c * d + e - f;
 	}
 }
+
 int main() {
 	cout<<endl << bodmas(0, 0, 0, 0, 0, 0) << endl;
 }
